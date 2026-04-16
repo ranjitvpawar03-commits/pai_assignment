@@ -1,12 +1,12 @@
 # Titanic Survival Prediction
 
 ## Team Members
-Smarak
-Sanket
-Prajwal
-Ranjit
-Snehith
-Dev
+Smarak,
+Sanket,
+Prajwal,
+Ranjit,
+Snehith,
+Dev,
 Anurag
 
 ## Problem Statement
