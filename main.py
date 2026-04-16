@@ -27,6 +27,19 @@ print("\nMissing Values:\n", train_df.isnull().sum())
 # 👤 Member 2:Prajwal: Data Preprocessing
 # Task: Clean data and handle missing values
 # ==========================================
+# Save PassengerId
+test_ids = test_df['PassengerId']
+
+# Drop unnecessary columns
+train_df.drop(['PassengerId','Name','Ticket','Cabin'], axis=1, inplace=True)
+test_df.drop(['PassengerId','Name','Ticket','Cabin'], axis=1, inplace=True)
+
+# Fill missing values
+for df in [train_df, test_df]:
+    df['Age'] = df['Age'].fillna(df['Age'].median())
+    df['Embarked'] = df['Embarked'].fillna(df['Embarked'].mode()[0])
+
+test_df['Fare'] = test_df['Fare'].fillna(test_df['Fare'].median())
 
 
 
