@@ -1,0 +1,82 @@
+# ==========================================
+# Titanic Survival Prediction Project
+# ==========================================
+
+# ==========================================
+# 👤 Member 1 :Sanket: Import Libraries & Load Data
+# Task: Load dataset and check basic info
+# ==========================================
+
+import numpy as np
+import pandas as pd
+
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+from sklearn.preprocessing import StandardScaler
+
+# Load dataset
+train_df = pd.read_csv("train.csv")
+test_df = pd.read_csv("test.csv")
+
+print("First 5 rows:\n", train_df.head())
+print("\nMissing Values:\n", train_df.isnull().sum())
+
+
+# ==========================================
+# 👤 Member 2:Prajwal: Data Preprocessing
+# Task: Clean data and handle missing values
+# ==========================================
+
+
+
+
+# ==========================================
+# 👤 Member 3: Ranjit : Feature Engineering
+# Task: Create new useful features
+# ==========================================
+
+
+
+
+
+
+# ==========================================
+# 👤 Member 4:Smarak : Encoding
+# Task: Convert categorical data into numeric
+# ==========================================
+
+
+
+
+
+
+
+# ==========================================
+# 👤 Member 5:Snehith Data Splitting & Scaling
+# Task: Split data and normalize it
+# ==========================================
+
+
+
+
+
+
+
+# ==========================================
+# 👤 Member 6: Anurag: Model Training & Cross Validation
+# Task: Train model and validate performance
+# ==========================================
+
+
+
+
+
+
+
+
+
+# ==========================================
+# 👤 Member 7: Prediction & Evaluation
+# Task: Evaluate model performance
+# ==========================================
