@@ -1,13 +1,13 @@
 # Titanic Survival Prediction
 
 ## Team Members
-- Smarak  
-- Sanket  
-- Prajwal  
-- Ranjit  
-- Snehith  
-- Dev  
-- Anurag
+- Smarak  : Encoding
+- Sanket  : Load Data
+- Prajwal : clean data 
+- Ranjit  : Encoding
+- Snehith : Split + Scale 
+- Dev     : Train model
+- Anurag  : Evaluate
 
 ## Problem Statement
 Predict whether a passenger survived or not using machine learning.
